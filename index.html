@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+
+  <title>Countdown</title>
+
+</head>
+<body>
+  <img class="blur" src="./assets/top-image.svg" alt="">
+    <main>
+      <section id="content">
+        <div class="timer-container">
+          <h1>Ready to launch in...</h1>
+          <div class="timer">
+            <div class="time">
+              <small>Dias</small>
+              <h2 id="days"></h2>
+            </div>
+            <span>:</span>
+            <div class="time">
+              <small>Horas</small>
+              <h2 id="hours"></h2>
+            </div>
+            <span>:</span>
+            <div class="time">
+              <small>Minutos</small>
+              <h2 id="minutes"></h2>
+            </div>
+            <span>:</span>
+            <div class="time">
+              <small>Segundos</small>
+              <h2 id="seconds"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="title">
+          <p>Inscreva-se para saber mais sobre o lançamento</p>
+          <button>Inscreva-se <i class="ph-arrow-circle-right"></i></button>
+        </div>
+      </section>
+      <section id="image-rocket">
+        <div class="image">
+          <img src="./assets/rocket.svg" alt="">
+        </div>
+      </section>
+    </main>
+    <img class="blur" src="./assets/bottom-image.svg" alt="">
+    <script src="main.js" ></script>
+</body>
+</html>
