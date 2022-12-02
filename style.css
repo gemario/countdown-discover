@@ -167,6 +167,14 @@ main {
   }
 }
 
+@media (max-width: 415px) {
+  .timer-container h1 {
+    font-size: 2.7rem;
+    letter-spacing: .7px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 385px) {
   .timer-container .timer {
     gap: 0.5rem;
